@@ -13,17 +13,17 @@ Sublime Text 3 sync settings repository
 
 - MacOS
 ```
-rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*
 ```
 ```
-git clone git@github.com:iryston/sublime-text-3-settings.git ~/Library/Application\ Support/Sublime\ Text\ 3/
+git clone git@github.com:iryston/sublime-text-3-settings.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 ```
 - Linux
 ```
-rm -rf ~/.config/sublime-text-3
+rm -rf ~/.config/sublime-text-3/Packages/User/*
 ```
 ```
-git clone git@github.com:iryston/sublime-text-3-settings.git ~/.config/sublime-text-3
+git clone git@github.com:iryston/sublime-text-3-settings.git ~/.config/sublime-text-3/Packages/User/
 ```
 
 ## Installed Plugins
