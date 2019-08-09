@@ -12,16 +12,21 @@ Sublime Text 3 sync settings repository
 **MAKE BACKUP BEFORE USING THIS COMMANDS**
 
 - MacOS
+
 ```
 rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/{*,.*}
 ```
+
 ```
 git clone git@github.com:iryston/sublime-text-3-settings.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 ```
+
 - Linux
+
 ```
 rm -rf ~/.config/sublime-text-3/Packages/User/{*,.*}
 ```
+
 ```
 git clone git@github.com:iryston/sublime-text-3-settings.git ~/.config/sublime-text-3/Packages/User/
 ```
@@ -52,7 +57,13 @@ Before using plugins, ensure that Node.js and related packages are installed on 
 [HTML-CSS-JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify) - HTML, CSS, JavaScript, JSON, React/JSX and Vue code formatter for Sublime Text 2 and 3 via node.js
 
 Install the NPM package
-```npm -g install js-beautify```
+
+```bash
+npm -g install js-beautify
+```
+
+### LESS
+[LESS](https://packagecontrol.io/packages/LESS) - LESS syntax highlighting for Sublime Text
 
 ### Sass
 [Sass](https://packagecontrol.io/packages/Sass) - Sass and SCSS syntax for Sublime Text
@@ -69,13 +80,19 @@ It will be used with files that have the “CSS” syntax, or within <style> tag
 Ensure that csslint (version 0.10.0 or later) is installed on your system.
 
 To install csslint, do the following:
-```npm install -g csslint```
+
+```bash
+npm -g install csslint
+```
 
 #### [SublimeLinter-eslint](https://packagecontrol.io/packages/SublimeLinter-eslint)
 This linter plugin for SublimeLinter provides an interface to ESLint. It will be used with files that have the “javascript” syntax.
 
 Install eslint globally by typing the following in a terminal:
-```npm install -g eslint```
+
+```bash
+npm -g install eslint
+```
 
 #### [SublimeLinter-html-tidy](https://packagecontrol.io/packages/SublimeLinter-html-tidy)
 This linter plugin for SublimeLinter provides an interface to tidy (either the html4 or html5 version). It will be used with files that have the “HTML” syntax.
