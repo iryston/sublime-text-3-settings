@@ -1,0 +1,14 @@
+# Ignore everything...
+*
+# ... except preferences and package list
+!.gitignore
+!Preferences.sublime-settings
+!Package Control.sublime-settings
+!Default (Linux).sublime-keymap
+!Default (Linux).sublime-mousemap
+!Default (OSX).sublime-keymap
+!Default (OSX).sublime-mousemap
+!Default (Windows).sublime-keymap
+!Default (Windows).sublime-mousemap
+!README.md
+
